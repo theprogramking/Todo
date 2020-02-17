@@ -17,6 +17,7 @@ h1 {
 	text-align: center;
 }
 
+
 .page {
 	margin: 0 auto;
 	padding: 0;
@@ -30,7 +31,7 @@ h1 {
 }
 
 .todoitem {
-	background-color: #3498DB;
+	background-color: #2CBFB1;
 	border-radius: 5px;
 	display: flex;
 	margin: 5px 0 0;
@@ -43,7 +44,7 @@ h1 {
 }
 
 .todo button {
-	background-color: #E74C3C;
+	background-color: #F26D6D;
 	border: none;
 	border-radius: 5px;
 	color: #FFF;
@@ -65,14 +66,14 @@ h1 {
 .todoinput {
 	border: 0;
 	border-radius: 5px;
-	font-size: 16px;
+	font-size: 20px;
 	outline: 0;
 	padding: 10px;
 	width: 100%;
 }
 
 .todoadd {
-	background-color: #DB9096;
+	background-color: #D94E73;
 	border: none;
 	border-radius: 5px;
 	color: #FFF;
@@ -81,5 +82,9 @@ h1 {
 	margin-left: 5px;
 	outline: 0;
 	padding: 5px;
-	width: 100%;
+	width: 25%;
+}
+
+.complete {
+    background-color: #3ADC48;
 }

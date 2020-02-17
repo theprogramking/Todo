@@ -1,5 +1,5 @@
 // TODO INIT
-var todoList = Todo(".todo");
+var todoList = Todo(".todo", ".completed");
 todoList.load();
   
 // TODO ADD
@@ -13,8 +13,6 @@ $(".todoadd").click(() => {
 
 // TODO REMOVE
 $(document).on('click', '.todo button', function(){ 
-  console.log($(this).attr("id"));
   todoList.remove($(this).attr("id"));
-  console.log(todoList.todos);
   todoList.load();
 });
