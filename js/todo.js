@@ -1,11 +1,11 @@
 let Todo = (selector, completedSelector) => {
    
     let todos = [
-      { id: 0, text: "Laundry", completed: false },
-      { id: 1, text: "Get gas", completed: false },
+      { id: 0, text: "Laundry.", completed: false },
+      { id: 1, text: "Get gas.", completed: false },
       { id: 2, text: "Make a new friend.", completed: false },
-      { id: 2, text: "Clean room", completed: true },
-      { id: 2, text: "Drink Water", completed: true }
+      { id: 2, text: "Clean room.", completed: true },
+      { id: 2, text: "Drink Water.", completed: true }
     ];
 
     let add = (text) => {

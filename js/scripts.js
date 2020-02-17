@@ -3,12 +3,22 @@ var todoList = Todo(".todo", ".completed");
 todoList.load();
   
 // TODO ADD
+function addTodo(){
+  todoList.add($(".todoinput").val());
+  todoList.load();
+  $(".todoinput").val("");
+}
+
 $(".todoadd").click(() => {
   if($(".todoinput").val()){
-    todoList.add($(".todoinput").val());
-    todoList.load();
-    $(".todoinput").val("");
+    addTodo();
   }
+});
+
+$(".todoinput").keypress((e) => {
+  if(e.keyCode == 13){
+    addTodo()
+  } 
 });
 
 // TODO REMOVE
